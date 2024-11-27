@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationContextInitializer=smoketest.tomcat.initializer.MyInitializer
+org.springframework.boot.SpringApplicationRunListener=smoketest.tomcat.listener.MyApplicationRunListener
+org.springframework.context.ApplicationListener=smoketest.tomcat.listener.RegisterUserApplicationListener
+org.springframework.boot.BootstrapRegistryInitializer=smoketest.tomcat.initializer.MyBootstrapRegistryInitializer
